@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e57c2904bb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="app/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Gulp template</title>
+<body>
+  <h1>Things that i like</h1>
+  <div class="tabs">
+    <div class="tabs-topbar">
+      <button type="button" class="tabs-button tabs-button-active"  onclick="changeHeader(event, 'pirmas')">Judo</button>
+      <button type="button" class="tabs-button"  onclick="changeHeader(event, 'antras')">Weightlifting</button>
+      <button type="button" class="tabs-button"  onclick="changeHeader(event, 'trecias')">My pets</button>
+    </div>
+    <div id="pirmas" class="tab-content center tab-content-active">
+      <img  class="photo1" >
+        <p>I started learning Judo few years ago it was after my bodybuilding expierience. I got interest in it, because i always wanted to increase my mobility and my body limits. Practising in Judo made me much stronger, increased my endurance, also got some discipline.
+        There are seven diffent belts in Europe: White, Yellow, Orange, Green, Blue, Brown and Black.
+      All belts have ranks White one is 6 kyo, Brown one 1 kyo, starting from Black belt rank changes to DANs, starting from 1.</p>
+    </div>
+    <div id="antras" class="tab-content nocolumn center">
+      <img class="photo2" >
+        <p class="bb">Lifting weights and globally doing sport was and still is my passion. I was doing different kinds of sport from my childhood till now. Starting from swimming, basketball, gymnastics and etc. Gym is where i stopped. Here, in photo u can see my best physique
+        that i managed to build. It was bodybuilding competition in year 2015.</p>
+    </div>
+    <div id="trecias" class="tab-content pets center">
+      <img class="photo3" >
+          <p class="bb">These are my animals. Cat's name is Blynelis, dog's - Liepa. Blynelis is the most pieceful cat i even know. And Liepa has unlimited energy. It's really good having them both by my side</p>
+        <img class="photo4">
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

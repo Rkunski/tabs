@@ -1,0 +1,30 @@
+.tabs-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  padding: 10px;
+  background: #FFEBA1;
+  border: none;
+  outline: none;
+  cursor:pointer;
+  border-radius: 5px;
+}
+    .tabs-button:active{
+      background: #95DAC1;
+    }
+    .tabs-button-active{
+      font-weight: bold;
+      background: #95DAC1;
+      box-shadow: 0 0 5px #FD6F96;
+    }
+    .tabs-button:hover{
+      background: #95DAC1;
+    }
+
+.tabs-button:hover::before{
+  font-family: 'FontAwesome';
+  content: '\f0e7';
+  font-size: 1.1em;
+  margin-right: 10px;
+}

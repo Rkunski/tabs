@@ -1,0 +1,48 @@
+.tabs{
+  display: flex;
+  flex-direction: column;
+}
+  .tab-content{
+    display: flex;
+    height: 900px;
+    font-size: 0.8rem;
+    display: none;
+  }
+  p{
+    font-size: 1.7rem;
+    padding: 10px;
+
+  }
+.tabs-topbar{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: auto;
+  max-width: 1000px;
+  height: 50px;
+  flex-shrink: 0;
+}
+.center {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: auto;
+  width: 800px;
+  padding: 10px;
+  display: none;
+}
+.nocolumn{
+  display: flex;
+  flex-direction: row;
+  display: none;
+}
+p.bb{
+  max-width: 400px;
+}
+.pets{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: none;
+  width: 900px;
+}
